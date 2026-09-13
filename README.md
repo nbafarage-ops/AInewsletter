@@ -23,15 +23,12 @@ subscribe page and automated content generation.
 
 ### 1. Create a Buttondown account
 
-Sign up at [buttondown.com](https://buttondown.com) and note your
-**username** (e.g. `buttondown.com/yourname`). Generate an API key under
-Settings → Programming.
+Done — account created, username is `AIPulse`. Generate an API key under
+Settings → Programming (needed for step 3, optional for now).
 
 ### 2. Wire up the subscribe form
 
-In `docs/index.html`, replace every occurrence of
-`YOUR_BUTTONDOWN_USERNAME` with your actual Buttondown username (two
-places: the form `action` URL and the archive link).
+Done — `docs/index.html` points at `buttondown.com/AIPulse`.
 
 ### 3. Add the API key as a GitHub secret
 
