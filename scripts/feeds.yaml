@@ -1,0 +1,29 @@
+# Sources aggregated into each newsletter issue.
+# `name` is the section heading used in the digest; `url` must be a valid RSS/Atom feed.
+# RSS URLs occasionally change or go stale — if a source stops appearing in issues,
+# check its current feed URL and update it here.
+feeds:
+  - name: OpenAI
+    url: https://openai.com/news/rss.xml
+  - name: Anthropic
+    url: https://www.anthropic.com/rss.xml
+  - name: Google DeepMind
+    url: https://deepmind.google/discover/blog/rss.xml
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+  - name: Meta AI
+    url: https://ai.meta.com/blog/rss/
+  - name: Hugging Face
+    url: https://huggingface.co/blog/feed.xml
+  - name: Microsoft AI
+    url: https://blogs.microsoft.com/ai/feed/
+  - name: MIT Technology Review — AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/feed/
+  - name: MarkTechPost
+    url: https://www.marktechpost.com/feed/
+  - name: arXiv cs.AI (new submissions)
+    url: http://export.arxiv.org/rss/cs.AI
+  - name: Hacker News (AI-related)
+    url: https://hnrss.org/newest?q=AI+OR+LLM+OR+%22machine+learning%22&points=75
